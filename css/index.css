@@ -34,11 +34,24 @@ img {
 	background-image: url("../imagens/fundo.png");
 }
 
-#block {
-	margin: 0 0 0 60px;
+q,
+blockquote {
 	font-style: italic;
 }
 
-#marked-text {
-	background-color: yellow;
+blockquote {
+	margin: 0 0 0 60px;
+}
+
+p::selection,
+body::selection,
+h1::selection,
+h2::selection,
+img::selection,
+a::selection,
+b::selection,
+em::selection,
+blockquote::selection,
+q::selection {
+	background: yellow;
 }
