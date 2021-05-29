@@ -1,0 +1,40 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	margin: 0 10%;
+	background: url("../imagens/desenho-loucao.jpg") no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	font-family: "Times New Roman", serif;
+	font-size: 28px;
+	color: limegreen;
+}
+
+table {
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+th {
+	background-color: grey;
+	color: white;
+	font-weight: bold;
+	border: 0.1px solid black;
+	text-align: center;
+}
+
+td {
+	border: 0.1px solid black;
+	text-align: center;
+}
